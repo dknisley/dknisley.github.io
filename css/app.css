@@ -1,0 +1,56 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300,500,900';
+
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin: 20vh auto 0;
+  max-width: 250px;
+  color: #525E66;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2rem;
+  color: #0A122A;
+}
+
+p {
+  font-weight: 300;
+  font-size: 1.33rem;
+}
+
+.button {
+  color: #eee;
+  background: #0A122A;
+  display: block;
+  width: 10rem;
+  padding: .33rem 1rem;
+  margin: 0 auto;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.25rem;
+  border-radius: 3px;
+}
+
+.button:hover {
+  transition: all 0.25s ease-in-out;
+  transform: scale(1.05);
+}
+
+.profileimg {
+  width: 10rem;
+}
+
+.socialicons {
+  padding: 0;
+  margin: 2rem 0 4rem;
+}
+.socialicons li {
+  display: inline-block;
+  padding: .5rem;
+}
+
+.socialicons img:hover {
+   transition: all 0.25s ease-in-out;
+   transform: scale(1.1);
+}
